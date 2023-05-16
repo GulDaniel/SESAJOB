@@ -1,0 +1,128 @@
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -15%;
+}
+
+.divisor {
+  width: 74%;
+  height: 2px;
+  background: white;
+  margin: -2% auto 3%;
+}
+
+.tituloBuscas h2 {
+  color: white;
+}
+
+.buscas {
+  display: flex;
+  align-items: center;
+}
+
+.buscar {
+  background: black;
+  color: white;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-left: 5%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  justify-content: center;
+  padding: 0 2% 0 0;
+  height: 180px;
+  width: 37%;
+  border-radius: 60px;
+  align-items: center;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: black;
+  color: #fff;
+  padding: 1%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+/* Estilos para o título do cabeçalho */
+header h1 {
+  margin: 0;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+  margin: 20px;
+}
+
+/* Estilos para os campos de data */
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="date"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Estilos para o botão de busca de passagens */
+form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Estilos para a tabela de passagens */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para o link de compra */
+td a {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+td a:hover {
+  background-color: #666;
+}
